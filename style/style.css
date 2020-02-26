@@ -1,61 +1,77 @@
 /*code for mobile*/
-body{
-    background-color: grey;
-    width: 100%;
+
+html{
+    text-align: center;
 }
-label{
-    background-color: darkseagreen;
+body{
+    color: #FFFFFF;
+    background-color: #1B99E0;
+    width: 95%;
+    margin: auto;
+}
+h1{
+    color: darkblue;
+    font-size: 250%;
+    margin-top: 5%;
 }
 .formelement{
     width: 85%;
-    margin-top: 10em;
     margin: auto;
+    margin-top: 5%;
+    background-color: #E52536;
 }
-
+form{
+    background-color: #176A93;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+#phoneNum,#fname,#lname,#email,#dateOfBirth,#submit{
+    background-color: #7DF5FF;
+}
+p{
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+#startOfForm{
+    margin-top: 4%;
+}
 #submitform{
     width: 100%;
-    margin-top: 5em;
+    margin-top: 4%;
 }
-
 
 /*code for desktop*/
 @media only screen and (min-width: 768px) {
     body{
-        background-color: #176A93;
+        color: #FFFFFF;
+        background-color: #1B99E0;
         width: 960px;
         margin: auto;
     }
-    label{
-        background-color: #1B99E0;
-    }
-    #phonenum,#fname,#lname,#email,#dateOfBirth,#submit{
-        background-color: #1B99E0;
-    }
-    .formelement{
-        margin-top: 5em;
-        width: 50%;
-    }
     #submitform{
         width: 100%;
+        margin-bottom: 5%;
+    }
+    p{
+        margin-top: 6%;
+        margin-bottom: 7%;
+    }
+    input{
+        width: 60%;
     }
 }
-@media only screen and (min-width: 768px) {
+
+
+@media only screen and (min-width: 1900px) {
     body{
-        background-color: #176A93;
-        width: 960px;
+        color: #FFFFFF;
+        background-color: #1B99E0;
+        width: 1440px;
         margin: auto;
     }
-    label{
-        background-color: #1B99E0;
-    }
-    #phonenum,#fname,#lname,#email,#dateOfBirth,#submit{
-        background-color: #1B99E0;
-    }
-    .formelement{
-        margin-top: 5em;
-        width: 50%;
-    }
-    #submitform{
-        width: 100%;
+    p{
+        margin-top: 6%;
+        margin-bottom: 7%;
     }
 }
