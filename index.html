@@ -7,7 +7,7 @@
 
   <link rel="stylesheet" media="screen" href="style/reset.css" />
   <link rel="stylesheet" media="screen" href="style/screen.css" />
-  <script defer type="text/javascript" src="scripts.js"></script>
+  <script async type="text/javascript" src="scripts.js"></script>
 </head>
 <body>
 
@@ -22,18 +22,18 @@
         </div>
         <div class="formelement">
             <label for="email">E-Mail</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" placeholder="name@email.com">
         </div>
         <div class="formelement">
             <label for="phoneNum">Phone Number</label>
-            <input type="number" name="phoneNum" id="phoneNum">
+            <input type="number" name="phoneNum" id="phoneNum" placeholder="***---****">
         </div>
         <div class="formelement">
             <label for="dateOfBirth">Date of Birth</label>
             <input type="date" name="dateOfBirth" id="dateOfBirth">
         </div>
 
-        <input type="submit" id="submitform" value="Submit">
+        <input type="submit" id="submitform" value="Submit" onclick="Response()">
 
     </form>
 </body>
