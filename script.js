@@ -4,6 +4,5 @@ function Response() {
         alert("Enter first name");
         return false;
     }
-    alert("Sign up successful");
     return false;
   }
