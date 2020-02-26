@@ -2,6 +2,8 @@ function Response(fname, lname, email, pnumber, dob) {
     if(fname.value == ""){
         alert("Enter first name");
         return false;
+    }else if(fname.value == {
+
     }
     if(lname.value == ""){
         alert("Enter last name");

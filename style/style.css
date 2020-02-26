@@ -14,7 +14,6 @@ h1{
     font-size: 250%;
     margin-top: 5%;
 }
-
 .formelement{
     width: 85%;
     margin: auto;
@@ -33,9 +32,6 @@ form{
 p{
     margin-top: 4%;
     margin-bottom: 5%;
-}
-#startOfForm{
-    margin-top: 4%;
 }
 #submitform{
     width: 80%;
