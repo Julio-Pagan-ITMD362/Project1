@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="nojs">
 <head>
-  <title>Project 2</title>
+  <title>Project 1</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
 
@@ -26,7 +26,9 @@
         <p><input type="number" name="phoneNum" id="phoneNum" placeholder="***---****"></p>
         <label for="dateOfBirth">Date of Birth</label>
         <p><input type="date" name="dateOfBirth" id="dateOfBirth"></p>
-        <input type="submit" id="submitform" value="Submit" onclick="Response(document.signup.fname)">
+        <input type="submit" id="submitform" value="Submit" 
+            onclick="Response(document.signup.fname, document.signup.lname, 
+            document.signup.email, document.signup.phoneNum, document.signup.dateOfBirth)">
     </form>
     </div>
 
