@@ -1,6 +1,5 @@
-function Response() {
-    var fn = document.forms["signup"]["fname"];
-    if(fn == ""){
+function Response(fname, lname, email, pnumber, dob) {
+    if(fname.value == ""){
         alert("Enter first name");
         return false;
     }
