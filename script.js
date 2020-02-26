@@ -24,5 +24,5 @@ function Response(fname, lname, email, pnumber, dob) {
     }
 
     alert("Sign up successful");
-    return false;
+    return true;
   }
